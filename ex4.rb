@@ -7,9 +7,9 @@ passengers = 90
 #subtracts value of drivers from value of cars
 cars_not_driven = cars - drivers
 cars_driven = drivers
-#mutliplies the value of two below variables
+#mutliplies the value of two declared variables
 carpool_capacity = cars_driven * space_in_a_car
-#divides the value of two of the below variable
+#divides the value of two of the declared variables
 average_passengers_per_car = passengers / cars_driven
 
 puts "There are #{cars} cars available."
@@ -18,7 +18,7 @@ puts "There will be #{cars_not_driven} empty cars today."
 puts "We can transport #{carpool_capacity} people today."
 puts "We have #{passengers} to carpool today."
 puts "We need to put about #{average_passengers_per_car} in each car."
-#each of the above lines inserts the value of one of the declared variables.
+#each of the above lines inserts the value of one of the declared variables into a puts statement.
 
 #Study Drill 6 example:
 a = 4
