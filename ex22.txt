@@ -1,0 +1,59 @@
+"" - double quotes - to create string
+puts - command - print a string
+# - octothorpe - used to comment on your code
+$ - command line prompt
+% - modulus - to get the remainder after division
+< - less-than
+> - greater-than
+<= - less-than-equal-to
+>= - greater-than-equal-to
++ - plus -  addition
+- - minus - subtraction
+/ - slash - division
+* - asterisk - multiplication
+#{} - interpolation char - used inside "", the code inside {} is evaluated and result is displayed
+irb - interactive ruby shell
+1, 14, 19- integers - whole numbers
+5.9, 18.8 - floats - numbers with a decimal point
+_ - underscore - used instead of a space when naming
+= - equal - assignment operator
+true/false - boolean
+
+%q == '' used for a multiline string
+\\ - escape backslash - to escape special characters
+"""...""" - triple quotes for strings
+\' - single quote
+\" - double quotes
+\a - ASCII bell - produces a bell sound
+\b - ASCII backspace
+\f - formfeed
+\n - newline
+\r - carriage return
+\t - tab
+\uxxxx - characters with 16-bit hex value xxxx
+\v - vertical tab
+\ooo - chars with octal value ooo
+\xhh - char with hex value hh
+''' vs """ - http://stackoverflow.com/questions/28511229/triple-single-quote-vs-triple-double-quote-in-ruby
+format strings - "%{first} %{second} %{third} %{fourth}" % {first: 1, second: 2, third: 3, fourth: 4}
+%{} - used to apply the same format to multiple values
+
+gets - get string input from user
+gets.chomp - removes the \n at the end of the string
+.to_i - method - converts to integer
+.to_f - method - converts to float
+ARGV - argument variable - this variable holds the arguments you pass to ruby script when it is run
+$stdin.gets.chomp - used instead of gets.chomp when ARGV is used
+ARGV.first - gets the first argument
+txt = open(filename) - opens a file
+txt.read = reads from file object and returns the contents as string
+txt.close - close a file
+truncate - empties the file
+seek - move the line-head of a file to a particular byte
+write('string') - writes stuff to file
+'w' - mode in which file is opened
+.length method = returns length of the string
+File.exist?(filename) - checks if the file exists
+functions/methods - names block of code, takes arguments and returns objects
+a += 1 - short hand for a = a + 1
+return - used to make methods return objects
